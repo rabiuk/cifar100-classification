@@ -12,6 +12,10 @@ outputs/models/
 outputs/predictions/
 outputs/visualizations/
 
+# Exclude large files
+data/test.csv
+cifar-challenge-classify-the-world-of-objects.zip
+
 # Track model files using Git LFS
 *.pth
 
