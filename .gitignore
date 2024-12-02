@@ -1,0 +1,30 @@
+# Ignore compiled Python files and cache
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments (if any)
+venv/
+env/
+
+# Ignore logs and generated outputs
+outputs/logs/
+outputs/models/*.pth
+outputs/predictions/
+outputs/visualizations/
+
+# Ignore dataset and temporary files
+data/cifar-100-python/
+data/*.zip
+data/*.tar.gz
+data/test/
+data/train/
+*.tmp
+*.bak
+*.swp
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore operating system-specific files
+.DS_Store
+Thumbs.db

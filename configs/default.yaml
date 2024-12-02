@@ -1,0 +1,16 @@
+# configs/default.yaml
+
+train:
+  num_epochs: 100
+  batch_size: 64
+  learning_rate: 0.01
+  step_size: 30
+  gamma: 0.1
+  weight_decay: 0.0005
+  momentum: 0.9
+  data_augmentation: true
+
+paths:
+  model_save_path: "outputs/models/resnet50_cifar100.pth"
+  test_csv_path: "data/test.csv"
+  submission_path: "outputs/predictions/submission.csv"
