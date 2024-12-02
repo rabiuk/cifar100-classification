@@ -12,8 +12,9 @@ outputs/models/
 outputs/predictions/
 outputs/visualizations/
 
-# Exclude large files
+# Ignore dataset and large files
 data/test.csv
+data/sample_submission.csv
 cifar-challenge-classify-the-world-of-objects.zip
 
 # Track model files using Git LFS
@@ -23,8 +24,6 @@ cifar-challenge-classify-the-world-of-objects.zip
 data/cifar-100-python/
 data/*.zip
 data/*.tar.gz
-data/test/
-data/train/
 *.tmp
 *.bak
 *.swp
