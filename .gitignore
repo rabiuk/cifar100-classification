@@ -8,9 +8,12 @@ env/
 
 # Ignore logs and generated outputs
 outputs/logs/
-outputs/models/*.pth
+outputs/models/
 outputs/predictions/
 outputs/visualizations/
+
+# Track model files using Git LFS
+*.pth
 
 # Ignore dataset and temporary files
 data/cifar-100-python/
@@ -28,3 +31,8 @@ data/train/
 # Ignore operating system-specific files
 .DS_Store
 Thumbs.db
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.code-workspace
